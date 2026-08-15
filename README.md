@@ -72,3 +72,9 @@ pip install -r requirements.txt
 
 Work in progress — building PD -> LGD -> EAD -> Expected Loss.
 
+
+
+Decision Note: 
+
+"Used the full Lending Club accepted-loans dataset (\~2.26M rows, 145 columns). Chose the complete file to work with real-world scale and messiness; core modelling columns are present across all dataset vintages, so extra fields are dropped during preprocessing. Note: full-size file has memory implications for later binning/fitting steps."
+
